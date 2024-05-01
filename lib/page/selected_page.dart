@@ -25,6 +25,12 @@ class SelectedPage extends StatelessWidget {
             onTap: () {
               Navigator.pop(context);
             },
+            /*child: Container(
+                decoration: BoxDecoration(
+                    color: Colors.white30,
+                    borderRadius: BorderRadius.circular(10)
+                ),
+                child: Center(child: Icon(Icons.arrow_back_ios_new,color: Colors.white,))),*/
             child: Container(
                 decoration: BoxDecoration(
                     color: Colors.white30,
